@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Owl's Coffee Maker",
+    "connected": true,
+    "waterInTank": 500,
+    "waterUnits": "ml",
+    "coffeeBeansInContrainer": 50,
+    "coffeeBeansUnits": "cups",
+    "coffeeGroundsInPan": 100,
+    "coffeeGroundsUnits": "cups"
+  }
+]
