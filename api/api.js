@@ -12,8 +12,6 @@ api.use(session({
   saveUninitialized: false
 }));
 
-require('./books/routes')(api);
-require('./colors/routes')(api);
 require('./coffee/routes')(api);
 require('./nest/routes')(api);
 

@@ -11,9 +11,6 @@ import FlashesService from './flashes/service';
 import IndexRouter from './index/router';
 import CoffeeRouter from './coffee/router';
 
-import ColorsRouter from './colors/router';
-import BooksRouter from './books/router';
-
 let app = new Application();
 
 ModalService.setup({
@@ -40,14 +37,6 @@ app.index = new IndexRouter({
 });
 
 app.coffee = new CoffeeRouter({
-  container: app.layout.content
-});
-
-app.colors = new ColorsRouter({
-  container: app.layout.content
-});
-
-app.books = new BooksRouter({
   container: app.layout.content
 });
 
