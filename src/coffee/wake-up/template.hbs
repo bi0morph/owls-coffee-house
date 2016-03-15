@@ -1,0 +1,33 @@
+<h4>Make coffe when wake up!</h4>
+{{#if isNestDisconnected}}
+  <p>
+    We can use Nest Cam to find out when you wake up or when you come back home, so we can make coffee for you at that moment.
+    <a class="btn btn-xs btn-warning" href="/nest/">
+          Connect to Nest
+    </a>
+  </p>
+{{else}}
+<form>
+  <div class="form-group">
+    <label for="camera">Select camera</label>
+    <select class="form-control camera" name="camera">
+      {{#each cameras}}
+        <option value="{{device_id}}">{{name_long}}</option>
+      {{/each}}
+    </select>
+  </div>
+  <div class="form-group">
+      <label for="when-make">When after waking up</label>
+      <select class="form-control when-make" name="when-make">
+          <option value="5">5 minutes</option>
+          <option value="10">10 minutes</option>
+          <option value="15">15 minutes</option>
+          <option value="20">20 minutes</option>
+          <option value="25">25 minutes</option>
+          <option value="30">30 minutes</option>
+          <option value="35">35 minutes</option>
+      </select>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+{{/if}}

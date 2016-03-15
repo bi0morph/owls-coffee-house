@@ -82,8 +82,10 @@
     "backbone.syphon": "^0.6.3",
     "bootstrap": "^3.3.6",
     "browserify-swap": "^0.2.1",
+    "firebase": "2.4.1",
     "handlebars": "^4.0.5",
     "jquery": "^2.1.4",
+    "js.cookie": "0.0.4",
     "lodash": "^3.10.1",
     "nprogress": "^0.2.0"
   },

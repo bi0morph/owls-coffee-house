@@ -2,7 +2,8 @@
   "globals": {
     "require" : true,
     "module"  : true,
-    "exports" : true
+    "exports" : true,
+    "console" : false
   },
 
   "bitwise"       : true,
@@ -26,8 +27,8 @@
   "trailing"      : true,
   "maxparams"     : 3,
   "maxdepth"      : 3,
-  "maxstatements" : 10,
-  "maxcomplexity" : 4,
+  "maxstatements" : 13,
+  "maxcomplexity" : 13,
   "maxlen"        : 80,
 
   "asi"           : false,

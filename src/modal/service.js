@@ -31,7 +31,6 @@ const WiresModalService = ModalService.extend({
   animateIn() {
     return this.layout.animateIn();
   },
-
   animateOut() {
     return this.layout.animateOut();
   }
