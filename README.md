@@ -6,6 +6,11 @@ Created for learning and other purpose.
 
 Based on [Marionette Wires](https://github.com/thejameskyle/marionette-wires) - an opinionated example application built with Marionette.js.
 
+## Idea
+Many people likes coffee. And I like coffee. We wake up at morning and always make coffee.
+We have smart coffee maker and Nest Cam. So why not connect them together.
+What if we have smart coffee maker and Nest Cam. So why do not connect them together?
+
 ## Quick start
 
 [Clone](http://git-scm.com/docs/git-clone)  this repo.
