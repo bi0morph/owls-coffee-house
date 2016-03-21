@@ -25,7 +25,7 @@ export default ItemView.extend({
       timeout : 70000,
       type    : 'info',
       title   : `Ok!`,
-      body    : `Owl will make coffee when you wake up after` +
+      body    : `Owl will make coffee when you wake up after ` +
                 `${minute} minute. Owl use camera: ${cameraName}.`
     });
 

@@ -7,6 +7,7 @@ import Application from './application/application';
 import ModalService from './modal/service';
 import HeaderService from './header/service';
 import FlashesService from './flashes/service';
+import CoffeePotService from './coffee-pot/service';
 
 import IndexRouter from './index/router';
 import CoffeeRouter from './coffee/router';
@@ -24,6 +25,7 @@ HeaderService.setup({
 FlashesService.setup({
   container: app.layout.flashes
 });
+CoffeePotService.setup();
 
 $(document).ajaxError(() => {
   FlashesService.add({
