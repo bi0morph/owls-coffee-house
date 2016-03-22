@@ -10,6 +10,8 @@ Based on [Marionette Wires](https://github.com/thejameskyle/marionette-wires) - 
 Many people likes coffee. And I like coffee. We wake up at morning and always make coffee.
 We have smart coffee maker and Nest Cam. So why not connect them together.
 What if we have smart coffee maker and Nest Cam. So why do not connect them together?
+[Video part 1: Intro](https://youtu.be/GtyFKMlnJZo)
+[Video part 2: Code](https://youtu.be/fzm44I9ucK8)
 
 ## Quick start
 
