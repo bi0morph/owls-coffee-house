@@ -25,6 +25,11 @@ gulp.task('html', function() {
     .pipe(gulp.dest('./dist'));
 });
 
+gulp.task('assets', function() {
+  return gulp.src('./src/assets/*')
+    .pipe(gulp.dest('./dist/assets'));
+});
+
 gulp.task('styles', function() {
   return gulp.src('./src/main.less')
     .pipe($.less())
@@ -95,6 +100,7 @@ gulp.task('mocha', ['jshint'], function() {
 gulp.task('build', [
   'clean',
   'html',
+  'assets',
   'styles',
   'scripts',
   'test'

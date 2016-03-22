@@ -12,7 +12,7 @@ export default ItemView.extend({
   template: template,
 
   initialize: function () {
-    this.model.on('change', this.render.bind(this));
+    this.listenTo(this.model,'change', this.render.bind(this));
   },
   events: {
     'click .actions__make-now' : 'handleMakeCoffeeNow',
@@ -62,7 +62,7 @@ export default ItemView.extend({
     FlashesService.request('add', {
       timeout : 7000,
       type    : 'error',
-      title   : `Somthing happen`,
+      title   : `Something happen`,
       body    : text
     });
   }
