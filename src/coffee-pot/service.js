@@ -36,6 +36,7 @@ const CoffeePotService = Service.extend({
         this.onError(`No camera with such id: ${_motion.camera}`);
         _motion.brewed = true;
       } else if(_camera.is_online && _camera.last_event.has_motion) {
+        _motion.brewed = true;
         setTimeout(function () {
           FlashesService.request('add', {
             timeout : 7000,
@@ -43,7 +44,6 @@ const CoffeePotService = Service.extend({
             title   : `Good morning!`,
             body    : `Take you hot coffee`
           });
-          _motion.brewed = true;
         }, _motion.timer * 60 * 1000);
       }
     }
